@@ -28,7 +28,7 @@
 <script>
     var oReq = new XMLHttpRequest();
     oReq.onload = loadData;
-    oReq.open("GET", "https://data.fixer.io/api/latest?access_key=18f0676055fe28e974b77864d20fc736");
+    oReq.open("GET", "http://data.fixer.io/api/latest?access_key=18f0676055fe28e974b77864d20fc736");
     oReq.send();
     oReq.responseType = "json";
     var data;
