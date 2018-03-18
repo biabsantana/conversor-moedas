@@ -12,7 +12,6 @@ body {
     background: linear-gradient(#B0C4DE, white);
     height: 100vw;
     background-repeat: no-repeat;
-    
 }
 
 p {
@@ -60,7 +59,7 @@ main {
 @media (max-width: 375px) {
 
     body {
-        background: linear-gradient(#B0C4DE, #B0C4DE, white);
+        background: linear-gradient(#B0C4DE, white);
         background-repeat: no-repeat;
     }
     .content {
@@ -68,6 +67,10 @@ main {
         height: 60px;
         padding: 0;
     }
+}
 
-
+@media (max-width: 342px){
+    h1{
+        text-align: center;
+    }
 }
